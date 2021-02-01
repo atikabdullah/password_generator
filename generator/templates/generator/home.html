@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+  </head>
+  <body>
+    <div class="container text-center">
+
+
+    <!-- <h1>Hello this is my practicing website</h1>
+    <h2> My name is {{ name }}</h2> -->
+    <div class="mb-3">
+
+
+    <span class="material-icons">
+dashboard
+</span>
+    <span class="h2 text-muted" >Password Generator</span>
+
+</div>
+    <!-- <form action="{#% url 'password' %}" method=""> -->
+    <form class="border border-info pt-3 pb-3" class="lead" aria-label="Default select example" action="password.html" method="">
+      length
+      <select name="length">
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12" selected>12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">16</option>
+
+
+
+      </select>
+      <br>
+
+      <input  type="checkbox" name="uppercase" >uppercase
+      <br>
+      <input type="checkbox" name="lowercase">lowercase
+      <br>
+      <input type="checkbox" name="numbers">numbers
+      <br>
+      <input type="checkbox" name="special">Special Characters
+      <br>
+
+      <br>
+
+
+
+
+      <input class="btn btn-info" type="submit"  value="Generate Password">
+
+
+    </form>
+    </div>
+  </body>
+</html>
