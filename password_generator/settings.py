@@ -25,7 +25,7 @@ SECRET_KEY = '^ql!_=4r0f6jgt-irh69bdmxn$&-#hjcsk*as&y^n7@z5sbt%q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.01','']
+ALLOWED_HOSTS = ['127.0.01','https://password-generator-alpha.herokuapp.com/']
 
 
 # Application definition
