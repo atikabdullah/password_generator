@@ -86,10 +86,10 @@ python-dateutil==2.8.1
 
 pytz==2020.5
 pytzdata==2020.1
-pywin32==300
-pywinauto==0.6.8
-PyYAML==5.3.1
-queuelib==1.5.0
+
+
+
+
 regex==2020.11.13
 requests==2.25.1
 
